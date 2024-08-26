@@ -58,7 +58,7 @@ _Services_ > _DHCP_
 
 *Ref 2: Configuring the Company's(legitimate) DHCP server. Do remember to save and click the 'on' bullet to turn on the service.*
 
-2. Configure the rogue DHCP serveras shown below.
+2. Configure the rogue DHCP server as shown below.
 
 ![photo_2024-08-27_03-14-59](https://github.com/user-attachments/assets/1c4919f3-debb-4853-9b05-e6a65ab2f6d5)
 
