@@ -129,18 +129,23 @@ c. DNS server is 8.8.8.8
 ### Bonus Step: Configuring DHCP services using CLI (using routers)
 
 ![photo_2024-08-27_01-22-09](https://github.com/user-attachments/assets/13e37944-a306-4986-92ad-78dee5709a0c)
+
 *Ref 1: How to configure DHCP services on a router using CLI*
 
 ![photo_2024-08-27_01-22-15](https://github.com/user-attachments/assets/5c221973-9812-470f-b5fc-7db6e534367e)
+
 *Ref 1: An example (legitimate DHCP)*
 
 ![photo_2024-08-27_01-22-11](https://github.com/user-attachments/assets/1e563aba-0fa0-4778-bbb8-683250b40572)
+
 *Ref 1: An example of how the attacker's DHCP issued the fake IP address and domain name*
 
 ## Benefits of DHCP Snooping
 
 **Enhanced Network Security:** Protects against rogue DHCP servers and ensures that clients receive IP addresses from legitimate sources.
-**Mitigation of Common Attacks:** Reduces the risk of MitM, DoS, and other attacks based on DHCP vulnerabilities.
+
+**Mitigation of Common Attacks:** Reduces the risk of Man-in-the-Middle (MitM), Denial of Service (DoS), and other attacks based on DHCP vulnerabilities.
+
 **Improved Network Stability:** By preventing misconfiguration from rogue DHCP servers, DHCP Snooping helps maintain the overall stability of the network.
 
 ## Limitations of DHCP Snooping
@@ -148,3 +153,7 @@ c. DNS server is 8.8.8.8
 **Complexity in Large Networks:** Managing DHCP Snooping across large and complex networks can be challenging, especially when multiple DHCP servers are involved.
 
 **Overhead on Switches:** Monitoring and filtering DHCP traffic can introduce some processing overhead on switches, though this is usually minimal.
+
+## Conclusion
+By issuing a malicious DNS server IP address and malicious default gateway IP address poses significant security threats to a network and its users. These malicious configurations can be exploited by attackers to intercept, manipulate, and redirect network traffic for various nefarious purposes. The attacker can conduct MitM attacks and credential theft attacks, just to name a few.
+Overall, DHCP Snooping is a critical tool in the network administrator's arsenal for maintaining secure and reliable network operations.
