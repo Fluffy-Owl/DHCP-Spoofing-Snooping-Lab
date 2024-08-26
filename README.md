@@ -54,13 +54,13 @@ Switch1 is connceted to a DHCP server(which acts as the legitimate DHCP server) 
 
 _Services_ > _DHCP_
 
-![photo_2024-08-27_01-22-33](https://github.com/user-attachments/assets/5217eaa7-b103-4592-8103-ff29a7b1068a)
+![photo_2024-08-27_03-14-56](https://github.com/user-attachments/assets/bcd4e8fd-0125-455b-b84d-9af60b31e97d)
 
 *Ref 2: Configuring the Company's(legitimate) DHCP server. Do remember to save and click the 'on' bullet to turn on the service.*
 
 2. Configure the rogue DHCP serveras shown below.
 
-![photo_2024-08-27_01-22-36](https://github.com/user-attachments/assets/3f1861aa-0b8a-49b3-8c49-c2cc310c90bf)
+![photo_2024-08-27_03-14-59](https://github.com/user-attachments/assets/1c4919f3-debb-4853-9b05-e6a65ab2f6d5)
 
 *Ref 3: Configuring the Attacker's(rogue) DHCP server. Do remember to save and click the 'on' bullet to turn on the service.*
 
@@ -91,11 +91,11 @@ DNS server:22.22.22.22 (Attacker's DNS server)
 
 1. Simulate the end hosts requesting for IP address using DHCP protocol. This can be done through the GUI or the command prompt. We shall use the command prompt for this lab. Input `ipconfig /renew` in the command prompt as shown below.
 
-![photo_2024-08-27_01-22-31](https://github.com/user-attachments/assets/c3d5f333-63a4-4811-8ee6-b5a875160e38)
+![photo_2024-08-27_03-14-54](https://github.com/user-attachments/assets/64b575df-abfd-4487-a811-22600dcd5ebf)
 
 *Ref 4: Laptop0(end host) requesting for IP address through DHCP protocol*
 
-![photo_2024-08-27_01-22-28](https://github.com/user-attachments/assets/23836421-a834-4e23-9a3c-e2f1faa48308)
+![photo_2024-08-27_03-14-51](https://github.com/user-attachments/assets/93263d53-467b-4f6f-9cc0-c76e1ddc2097)
 
 *Ref 5: PC0(end host) requesting for IP address through DHCP protocol*
 
@@ -135,11 +135,11 @@ b. Default Gateway is 192.168.1.1
 c. DNS server is 8.8.8.8
 
 
-![photo_2024-08-27_01-22-18](https://github.com/user-attachments/assets/d2d62d13-7d48-4fe8-a810-7ffafa5a6479)
+![photo_2024-08-27_03-14-50](https://github.com/user-attachments/assets/66d76580-9978-4e3a-939c-ebcab5efce4e)
 
 *Ref 7: PC1(end host) requesting for IP address through DHCP protocol*
 
-![photo_2024-08-27_01-22-24](https://github.com/user-attachments/assets/6b693e40-3a51-45a5-82d8-12814769c193)
+![photo_2024-08-27_03-14-47](https://github.com/user-attachments/assets/ba3786ef-5bc5-4efc-9b4b-2d112d1ddb68)
 
 *Ref 8: Laptop0(end host) requesting for IP address through DHCP protocol*
 
@@ -156,7 +156,7 @@ c. DNS server is 8.8.8.8
 
 *Ref 10: An example to configure DHCP services on a router(legitimate DHCP server)*
 
-![photo_2024-08-27_01-22-11](https://github.com/user-attachments/assets/1e563aba-0fa0-4778-bbb8-683250b40572)
+![photo_2024-08-27_03-14-45](https://github.com/user-attachments/assets/fab39670-23f5-40c8-8302-5f4548adc98d)
 
 *Ref 11: An example of how the attacker's DHCP server issued the fake IP address and domain name*
 
