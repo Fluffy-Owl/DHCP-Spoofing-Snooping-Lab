@@ -4,20 +4,20 @@
 
 The overall objective of this lab is to understand <ins>what happens in a DHCP spoofing incident</ins> and <ins>how we can prevent it through DHCP Snooping</ins>. Cisco's Packet Tracer will be used to simulate the DHCP spoofing attack and the DHCP snooping exercise.
 
-**Objective 1:**
+**Objective 1: DHCP Configuration**
 
-_DHCP Configuration:_ Configuring DHCP services on a server using GUI.
+Configuring DHCP services on a server using GUI.
 
-**Objective 2:**
+**Objective 2: Simulating DHCP Spoofing Attack**
 
-*DHCP Spoofing:* Simulate an attacker trying to issue the following using a rogue DHCP server.
+Simulate an attacker trying to issue the following using a rogue DHCP server.
 1. Fake IP addresses
 2. Default gateway
 3. DNS server 
 
-**Objective 3:**
+**Objective 3: DHCP Snooping**
 
-*DHCP Snooping:* Configure DHCP Snooping on the switch to prevent DHCP spoofing attacks. After configuring DHCP snooping, we will test it by `ipconfig /renew` on end hosts to see if the network is able to prevent DHCP spoofing.
+Configure DHCP Snooping on the switch to prevent DHCP spoofing attacks. After configuring DHCP snooping, we will test it by `ipconfig /renew` on end hosts to see if the network is able to prevent DHCP spoofing.
 
 
 **Bonus:**
@@ -33,10 +33,15 @@ We will be using a server to offer DHCP services to the network. However, at the
 **Devices Required:**
 
 2 x Switch (Layer 2)
+
 2 x Servers (1 legitimate DHCP server and 1 rogue DHCP server)
+
 6 x end host (PCs and Laptops)
+
 Optional:
+
 1 x Router (ISP)
+
 1 x Cloud (internet)
 
 **Topology Overview:**
@@ -150,7 +155,7 @@ c. DNS server is 8.8.8.8
 
 ![photo_2024-08-27_01-22-09](https://github.com/user-attachments/assets/13e37944-a306-4986-92ad-78dee5709a0c)
 
-*Ref 9: How to configure DHCP services on a router using CLI*
+*Ref 9: My personal notes on how to configure DHCP services on a router using CLI*
 
 ![photo_2024-08-27_01-22-15](https://github.com/user-attachments/assets/5c221973-9812-470f-b5fc-7db6e534367e)
 
